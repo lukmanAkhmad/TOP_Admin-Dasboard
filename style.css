@@ -78,7 +78,7 @@ body {
 
 
 .header {
-    background-color: honeydew;
+    background-color: white;
     display: grid;
     grid-column: 2;
     grid-template-columns: 2fr 1fr 2fr;
