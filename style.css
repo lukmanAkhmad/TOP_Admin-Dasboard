@@ -271,6 +271,7 @@ body {
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 10px;
+    font-family: roboto, sans-serif;
 }
 .announcement{
     background-color: white;
@@ -302,6 +303,7 @@ body {
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 10px;
+    font-family: roboto, sans-serif;
 }
 .trending{
     display: grid;
