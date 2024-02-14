@@ -47,110 +47,14 @@ body {
     padding-bottom: 20px;
 }
 
-.home {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: 20px;
-}
-
-.home-icon {
-    width: 25px;
-    height: 25px;
-    fill: white;
-}
-
-.profile {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: 20px;
-}
-
-.profile-icon {
-    width: 25px;
-    height: 25px;
-    fill: white;
-}
-
-.messages {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: 20px;
-}
-
-.messages-icon {
-    width: 25px;
-    height: 25px;
-    fill: white;
-}
-
-.history {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: 20px;
-}
-
-.history-icon {
-    width: 25px;
-    height: 25px;
-    fill: white;
-}
-
-.tasks {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: 20px;
-}
-
-.tasks-icon {
-    width: 25px;
-    height: 25px;
-    fill: white;
-}
-
-.communities {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: 20px;
-}
-
-.communities-icon {
-    width: 25px;
-    height: 25px;
-    fill: white;
-}
-
-.settings {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: 20px;
-}
-
-.settings-icon {
-    width: 25px;
-    height: 25px;
-    fill: white;
-}
-
-.support {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: 20px;
-}
-
-.support-icon {
-    width: 25px;
-    height: 25px;
-    fill: white;
-}
-
+.home,
+.profile,
+.messages,
+.history,
+.tasks,
+.communities,
+.settings,
+.support,
 .privacy {
     display: flex;
     align-items: center;
@@ -158,6 +62,14 @@ body {
     font-size: 20px;
 }
 
+.home-icon,
+.profile-icon,
+.messages-icon,
+.history-icon,
+.tasks-icon,
+.communities-icon,
+.settings-icon,
+.support-icon,
 .privacy-icon {
     width: 25px;
     height: 25px;
