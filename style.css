@@ -261,11 +261,12 @@ body {
 
 
 .main-content {
-    /* background-color: #bccbde; */
+    background-color: #bccbde;
     grid-row: 2 / 4;
 
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .project-container {
@@ -304,7 +305,7 @@ body {
 }
 
 .card p {
-    padding: 5px;
+    padding: 10px;
     color: black;
     font-weight: normal;
     font-size: 14px;
@@ -318,7 +319,18 @@ body {
     border-left: 10px solid orange;
 }
 
-
+.card{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+}
+.para-card{
+    grid-row: 2 / 4;
+}
+.icon-card{
+    grid-row: 4 / 5;
+    justify-self: end;
+    padding-right: 10px;
+}
 
 .star-icon,
 .eye-icon,
@@ -336,6 +348,33 @@ body {
 
 .announcement-container {
     grid-column: 2 / 3;
+    
+    padding: 18px 18px 18px 0px;
+    
+}
+.title-announcement-container{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.announcement{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    height: 280px;
+}
+.title-announcement{
+    font-size: 15px;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+}
+.para-announcement{
+    font-size: 14px;
+    font-family: roboto, sans-serif;
+}
+.horizontal-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .trending-container {
